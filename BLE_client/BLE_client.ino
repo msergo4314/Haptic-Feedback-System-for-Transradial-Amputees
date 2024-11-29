@@ -8,8 +8,6 @@ Code for the BLE client which will receive data posted by the server (Sleeve chi
 #define DATA_PRINT_REFRESH_TIME 250U  // in ms
 #define MOTOR_CONTROL_ERROR_THRESHOLD (float)0.0001  // in full rotations (0.001)
 
-#define HARDNESS_CHANGE_THRESHOLD 10.0F
-
 // the data we recieve from the server each time a notification is triggered
 typedef struct {
   ushort max_FSR_reading;
